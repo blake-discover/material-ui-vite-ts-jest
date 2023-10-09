@@ -14,8 +14,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "paths": {
+      "helpers/test-utils": ["./src/utils/test-utils"]
+    }
   },
-  "include": ["src"],
+  "include": ["src", "jest.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
