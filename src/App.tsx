@@ -9,13 +9,15 @@ export default function App() {
           Material UI Vite.js example in TypeScript
         </Typography>
 
-        {/* HTML */}
-        <button>Submit</button>
-        {/* CSS-in-JS */}
-        <Box sx={{ button: { backgroundColor: "aqua" } }}>
+        <Box
+          sx={{
+            button: { backgroundColor: "aqua" },
+            "button:hover": { backgroundColor: "bisque" },
+          }}
+        >
           <button>Submit</button>
         </Box>
-        {/* Mui */}
+
         <Button>Submit</Button>
       </Box>
     </Container>
