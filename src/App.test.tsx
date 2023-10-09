@@ -37,7 +37,7 @@ describe("Button", () => {
 
   describe("Background styles", () => {
     describe('The following tests check for the "dark" modifier of the primary color. The "dark" property in this instance should **only** be applicable during a hover state', () => {
-      test("Should have correct background-color", () => {
+      test("Should have correct background-color -- dark", () => {
         const { getByText } = render(<Button>{testText}</Button>);
 
         const button = getByText(testText);
@@ -47,7 +47,7 @@ describe("Button", () => {
       });
     });
 
-    test("Should have correct background-color", () => {
+    test("Should have correct background-color -- main", () => {
       const { getByText } = render(<Button>{testText}</Button>);
 
       const button = getByText(testText);
