@@ -1,4 +1,4 @@
-# Material UI - Vite.js in TypeScript example
+# Material UI - Vite.js in TypeScript example with Jest
 
 Cloned from [Mui](https://github.com/mui/material-ui/tree/master/examples/material-ui-vite-ts)
 
